@@ -5,20 +5,27 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "faker": "^4.1.0",
     "gatsby": "^3.13.0",
+    "gatsby-core-utils": "^2.13.0",
     "gatsby-plugin-image": "^1.13.0",
     "gatsby-plugin-manifest": "^3.13.0",
     "gatsby-plugin-offline": "^4.13.0",
     "gatsby-plugin-react-helmet": "^4.13.0",
     "gatsby-plugin-sharp": "^3.13.0",
     "gatsby-source-filesystem": "^3.13.0",
+    "gatsby-transformer-remark": "^4.10.0",
     "gatsby-transformer-sharp": "^3.13.0",
+    "js-image-generator": "*",
+    "progress": "*",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-helmet": "^6.1.0"
+    "react-helmet": "^6.1.0",
+    "rimraf": "*"
   },
   "devDependencies": {
+    "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.25",
     "prettier": "2.3.2"
   },
   "keywords": [
@@ -27,6 +34,7 @@
   "license": "0BSD",
   "scripts": {
     "build": "gatsby build",
+    "bench": "rm -rf generated_articles generated_images; gatsby clean; N=${N:-512} node gen.js; CI=1 node --max_old_space_size=${M:-2}000 node_modules/.bin/gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "gatsby develop",
