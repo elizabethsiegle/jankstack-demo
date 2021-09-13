@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
+    title: `Gatsby Jank Stack`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@gatsbyjs`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
@@ -28,12 +28,15 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
     {
-      resolve: "gatsby-plugin-webpack-bundle-analyser-v2",
+      resolve: "gatsby-plugin-newrelic-test",
       options: {
-        analyzerMode: 'json',
-        generateStatsFile: true,
-        logLevel: 'debug',
-
+        NR_INGEST_KEY: process.env.NEW_RELIC_INSERT_KEY || '',
+        NR_LICENSE_KEY: process.env.NEW_RELIC_LICENSE_KEY || '',
+        SITE_NAME: 'jankstack',
+        staging: true,
+        customTags: {
+          'test': true,
+        },
       }
     },
   ],
