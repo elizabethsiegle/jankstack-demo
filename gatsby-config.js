@@ -32,11 +32,16 @@ module.exports = {
       options: {
         NR_INGEST_KEY: process.env.NEW_RELIC_INSERT_KEY || '',
         NR_LICENSE_KEY: process.env.NEW_RELIC_LICENSE_KEY || '',
+        NR_ACCOUNT_ID: process.env.NEW_RELIC_ACCOUNT_ID,
         SITE_NAME: 'jankstack',
         staging: true,
         customTags: {
           'test': true,
         },
+        collectTraces: false,
+        collectMetrics: false,
+        collectEvents: false,
+        collectBundleSize: false,
       }
     },
   ],
