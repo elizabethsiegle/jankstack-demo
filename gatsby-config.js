@@ -37,5 +37,13 @@ module.exports = {
         staging: true,
       }
     },
+    {
+      resolve: 'gatsby-source-graphql',
+      options: {
+        typeName: 'RMAPI',
+        fieldName: 'rickAndMorty',
+        url: 'https://rickandmortyapi.com/graphql',
+      },
+    },
   ],
 }
