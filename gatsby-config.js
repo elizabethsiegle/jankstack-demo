@@ -28,13 +28,16 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
     {
-      resolve: "gatsby-plugin-newrelic-test",
+      resolve: "gatsby-build-newrelic",
       options: {
-        NR_INGEST_KEY: process.env.NEW_RELIC_INGEST_KEY || '',
+        NR_INSERT_KEY: process.env.NEW_RELIC_INSERT_KEY || '',
         NR_LICENSE_KEY: process.env.NEW_RELIC_LICENSE_KEY || '',
         NR_ACCOUNT_ID: process.env.NEW_RELIC_ACCOUNT_ID,
         SITE_NAME: 'jankstack',
         staging: true,
+        customTags: {
+          gatsbySite: 'jankstack',
+        }
       }
     },
   ],
