@@ -13,9 +13,9 @@ function checkDuplicates(slug) {
 const blogPost = path.resolve(`./src/templates/blog-post.js`)
 
 exports.createPages = async ({ graphql, actions }) => {
-  console.log(`Gatsby ${process.env.GATSBY_CLOUD}`)
-  console.log(`VERCEL ${process.env.VERCEL}`)
-  console.log(`Netlify ${process.env.NETLIFY}`)
+  console.log(`Gatsby ${typeof process.env.GATSBY_CLOUD}`)
+  console.log(`VERCEL ${typeof process.env.VERCEL}`)
+  console.log(`Netlify ${typeof process.env.NETLIFY}`)
   const { createPage } = actions
 
   const result = await graphql(`
