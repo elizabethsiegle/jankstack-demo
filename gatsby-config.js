@@ -1,13 +1,14 @@
 module.exports = {
   siteMetadata: {
     title: `Gatsby Jank Stack`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `Kick off your next, janky Gatsby project with this default jank. This janky bones starter ships with the main Gatsby configuration files you won't want.`,
     author: `@gatsbyjs`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
   plugins: [
     `gatsby-transformer-remark`,
     'gatsby-plugin-image',
+    `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -22,6 +23,18 @@ module.exports = {
         path: `${__dirname}/generated_images`,
       },
     },
+    {
+			resolve: `gatsby-plugin-manifest`,
+			options: {
+				name: `morty-and-rick-gatsby`,
+				short_name: `morty-rick`,
+				start_url: `/`,
+				background_color: `#663399`,
+				theme_color: `#663399`,
+				display: `minimal-ui`,
+				icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+			},
+		},
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     // this (optional) plugin enables Progressive Web App + Offline functionality

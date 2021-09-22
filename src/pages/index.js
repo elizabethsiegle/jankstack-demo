@@ -1,72 +1,30 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from 'react'
+import {graphql} from 'gatsby'
 
-class Layout extends React.Component {
-  render() {
-    const { location, title, children } = this.props
-    const rootPath = `${__PATH_PREFIX__}/`
-    let header
+import HomeBox from './../Components/Home/HomeBox'
+import Layout from './../Components/Layout'
 
-    if (location.pathname === rootPath) {
-      header = (
-        <h1
-          style={{
-            marginBottom: '5px',
-            marginTop: 0,
-          }}
-        >
-          <Link
-            style={{
-              boxShadow: `none`,
-              textDecoration: `none`,
-              color: `inherit`,
-            }}
-            to={`/`}
-          >
-            {title}
-          </Link>
-        </h1>
-      )
-    } else {
-      header = (
-        <h3
-          style={{
-            fontFamily: `Montserrat, sans-serif`,
-            marginTop: 0,
-          }}
-        >
-          <Link
-            style={{
-              boxShadow: `none`,
-              textDecoration: `none`,
-              color: `inherit`,
-            }}
-            to={`/`}
-          >
-            {title}
-          </Link>
-        </h3>
-      )
-    }
-    return (
-      <div
-        style={{
-          marginLeft: `auto`,
-          marginRight: `auto`,
-          maxWidth: '75%',
-          padding: `5px`,
-        }}
-      >
-        <header>{header}</header>
-        <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
-      </div>
-    )
-  }
+const Home = ({data}) => {
+	return (
+		<Layout helmet={"Sam's Rick & Morty App"}>
+			<h1><strike>JAMstack</strike>JANKstack.org</h1>
+			<HomeBox characters={data.allCharacters.nodes} />
+		</Layout>
+	)
 }
 
-export default Layout
+export default Home
+
+export const query = graphql`
+	query HomeCharactersQuery {
+		allCharacters(limit: 5) {
+			nodes {
+				id
+				name
+				gender
+				status
+				image
+			}
+		}
+	}
+`

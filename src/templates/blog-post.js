@@ -21,7 +21,7 @@ class BlogPostTemplate extends React.Component {
     const { previous, next } = this.props.pageContext
 
     return (
-      <Layout location={this.props.location} title={siteTitle}>
+      <Layout location={location && this.props.location} title={siteTitle}>
         <article>
           <header>
             <h1 style={{ marginTop: "5px", marginBottom: 0 }}>{title}</h1>
