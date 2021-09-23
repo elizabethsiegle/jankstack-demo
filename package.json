@@ -7,7 +7,7 @@
   "dependencies": {
     "faker": "^4.1.0",
     "gatsby": "^3.14.0",
-    "gatsby-build-newrelic": "^1.0.3",
+    "gatsby-build-newrelic": "^1.0.4",
     "gatsby-core-utils": "^2.13.0",
     "gatsby-plugin-image": "^1.13.0",
     "gatsby-plugin-manifest": "^3.14.0",
@@ -27,7 +27,8 @@
     "react-styled-flexboxgrid": "^3.2.1",
     "react-tiny-popover": "^7.0.0",
     "rimraf": "*",
-    "styled-components": "^5.3.1"
+    "styled-components": "^5.3.1",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.25",
@@ -39,7 +40,7 @@
   "license": "0BSD",
   "scripts": {
     "build": "gatsby build --open-tracing-config-file ./node_modules/gatsby-build-newrelic/zipkin-local.js --graphql-tracing",
-    "bench": "rm -rf generated_articles generated_images; gatsby clean; N=${N:-512} node gen.js; CI=1 node --max_old_space_size=${M:-2}000 node_modules/.bin/gatsby build --open-tracing-config-file ./node_modules/gatsby-plugin-newrelic-test/zipkin-local.js --graphql-tracing",
+    "bench": "rm -rf generated_articles generated_images; gatsby clean; N=${N:-512} node gen.js; CI=1 node --max_old_space_size=${M:-2}000 node_modules/.bin/gatsby build --open-tracing-config-file ./node_modules/gatsby-build-newrelic/zipkin-local.js --graphql-tracing",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "gatsby develop",

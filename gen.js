@@ -4,9 +4,12 @@ const faker = require(`faker`)
 const genJpg = require("js-image-generator")
 const rimraf = require("rimraf")
 const ProgressBar = require("progress")
+require("dotenv").config({
+  path: `.env`,
+})
 
 const C = parseInt(process.env.C, 10) || 0 // Worker count. If non-zero, shards the image generation and generates N images regardless.
-const N = parseInt(process.env.N, 10) || 100 // Article count
+const N = parseInt(process.env.HOW_MANY_PAGES, 10) || 100 // Article count
 const W = parseInt(process.env.W, 10) || 640 // Image width
 const H = parseInt(process.env.H, 10) || 326 // Image height
 

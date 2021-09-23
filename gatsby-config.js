@@ -1,3 +1,7 @@
+require("dotenv").config({
+  path: `.env`,
+})
+
 module.exports = {
   siteMetadata: {
     title: `Gatsby Jank Stack`,
@@ -50,6 +54,10 @@ module.exports = {
         staging: true,
         customTags: {
           gatsbySite: 'jankstack',
+          JANKY_SOURCE_NODES: process.env.JANKY_SOURCE_NODES,
+          JANKY_CREATE_PAGE: process.env.JANKY_CREATE_PAGE,
+          JANKY_ERRORS: process.env.JANKY_ERRORS,
+          HOW_MANY_PAGES: process.env.HOW_MANY_PAGES,
         }
       }
     },

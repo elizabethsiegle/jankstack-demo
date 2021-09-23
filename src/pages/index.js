@@ -6,7 +6,7 @@ import Layout from './../Components/Layout'
 
 const Home = ({data}) => {
 	return (
-		<Layout helmet={"Sam's Rick & Morty App"}>
+		<Layout helmet={"JANKstack = Future"}>
 			<h1><strike>JAMstack</strike>JANKstack.org</h1>
 			<HomeBox characters={data.allCharacters.nodes} />
 		</Layout>

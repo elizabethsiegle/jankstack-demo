@@ -7,6 +7,7 @@ import Layout from './../Components/Layout'
 
 import useRandomCharacters from '../utils/hooks/randomCharacters'
 
+const JANKY_SOURCE_NODES = process.env.JANKY_SOURCE_NODES
 const Characters = ({data}) => {
 	const characters = useRandomCharacters(data.allCharacters.nodes, 40)
 
@@ -30,16 +31,16 @@ const Characters = ({data}) => {
 export default Characters
 
 export const query = graphql`
-	query CharactersQuery {
-		allCharacters {
-			nodes {
-				id
-				name
-				gender
-				species
-				status
-				image
-			}
+query yourQuery($limit: Int) {
+	allCharacters(limit: $limit) {
+		nodes {
+			id
+			name
+			gender
+			species
+			status
+			image
 		}
 	}
+}
 `
