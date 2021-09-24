@@ -5,7 +5,12 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@chakra-ui/gatsby-plugin": "^2.0.1",
+    "@chakra-ui/react": "^1.6.8",
+    "@emotion/react": "^11.4.1",
+    "@emotion/styled": "^11.3.0",
     "faker": "^4.1.0",
+    "framer-motion": "^4.1.17",
     "gatsby": "^3.14.0",
     "gatsby-build-newrelic": "^1.0.4",
     "gatsby-core-utils": "^2.13.0",
