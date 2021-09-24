@@ -14,20 +14,6 @@ module.exports = {
     'gatsby-plugin-image',
     `gatsby-plugin-styled-components`,
     {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `blog`,
-        path: `${__dirname}/generated_articles`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `img`,
-        path: `${__dirname}/generated_images`,
-      },
-    },
-    {
 			resolve: `gatsby-plugin-manifest`,
 			options: {
 				name: `morty-and-rick-gatsby`,
