@@ -14,6 +14,7 @@ import { Col, Row } from "react-styled-flexboxgrid"
 
 import { CharacterCard } from "../Components/elements/cards"
 import Layout from "./../Components/Layout"
+import Banner from "./../Components/Banner"
 
 const CharactersSingle = props => {
   const character = props.pageContext
@@ -29,7 +30,9 @@ const CharactersSingle = props => {
       lg: '12',
     }}
   >
+    {Banner}
     <Box maxW="7xl" mx="auto">
+      
       <Box
         maxW={{
           lg: 'md',
@@ -57,6 +60,7 @@ const CharactersSingle = props => {
           display="inline-flex"
           minW="10rem"
         >
+          {character.status == "Alive" &&
           <Badge
             px="2"
             variant="solid"
@@ -64,8 +68,31 @@ const CharactersSingle = props => {
             rounded="full"
             textTransform="capitalize"
           >
-            Species
+            {character.status}
           </Badge>
+          }
+          {character.status == "Dead" &&
+          <Badge
+            px="2"
+            variant="solid"
+            colorScheme="red"
+            rounded="full"
+            textTransform="capitalize"
+          >
+            {character.status}
+          </Badge>
+          }
+          {character.status == "unknown" &&
+          <Badge
+            px="2"
+            variant="solid"
+            colorScheme="gray"
+            rounded="full"
+            textTransform="capitalize"
+          >
+            {character.status}
+          </Badge>
+          }
           <Box fontWeight="medium">{character.species}</Box>
         </HStack>
         <Heading as="h1" size="3xl" lineHeight="1" fontWeight="extrabold" letterSpacing="tight">
