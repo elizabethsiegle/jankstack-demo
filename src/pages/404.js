@@ -1,10 +1,10 @@
 import React from 'react'
 import {Link} from 'gatsby'
 
-import {Box} from '../Components/elements/layout'
-import Button from '../Components/elements/buttons'
-import Layout from './../Components/Layout'
-import {Heading1, Lead} from '../Components/elements/text'
+import {Box} from '../components/elements/layout'
+import Button from '../components/elements/buttons'
+import Layout from '../components/Layout'
+import {Heading1, Lead} from '../components/elements/text'
 
 const Four0Four = ({location}) => {
 	return (

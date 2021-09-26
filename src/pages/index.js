@@ -1,8 +1,8 @@
 import React from 'react'
 import {graphql} from 'gatsby'
 
-import HomeBox from './../Components/Home/HomeBox'
-import Layout from './../Components/Layout'
+import HomeBox from './../components/Home/HomeBox'
+import Layout from './../components/Layout'
 
 const Home = ({data}) => {
 	return (

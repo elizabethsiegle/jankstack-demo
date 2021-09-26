@@ -2,8 +2,8 @@ import React from 'react'
 import {graphql} from 'gatsby'
 import {Col, Row} from 'react-styled-flexboxgrid'
 
-import {CharacterCard} from '../Components/elements/cards'
-import Layout from './../Components/Layout'
+import {CharacterCard} from '../components/elements/cards'
+import Layout from './../components/Layout'
 
 import useRandomCharacters from '../utils/hooks/randomCharacters'
 

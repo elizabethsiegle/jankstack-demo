@@ -12,9 +12,9 @@ import {
 import React from "react"
 import { Col, Row } from "react-styled-flexboxgrid"
 
-import { CharacterCard } from "../Components/elements/cards"
-import Layout from "./../Components/Layout"
-import Banner from "./../Components/Banner"
+import { CharacterCard } from "../components/elements/cards"
+import Layout from "./../components/Layout"
+import Banner from "./../components/Banner"
 
 const CharactersSingle = props => {
   const character = props.pageContext

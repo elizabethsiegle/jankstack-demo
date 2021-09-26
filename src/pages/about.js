@@ -3,9 +3,9 @@ import React from 'react'
 import {Link} from 'gatsby'
 import {Grid} from 'react-styled-flexboxgrid'
 
-import {Box} from '../Components/elements/layout'
-import Layout from './../Components/Layout'
-import {Heading1, Lead} from '../Components/elements/text'
+import {Box} from '../components/elements/layout'
+import Layout from './../components/Layout'
+import {Heading1, Lead} from '../components/elements/text'
 
 const About = () => {
 	return (
