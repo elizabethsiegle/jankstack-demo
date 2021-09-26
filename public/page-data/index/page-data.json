@@ -1,5 +1,0 @@
-{
-    "componentChunkName": "component---src-pages-index-js",
-    "path": "/",
-    "result": {"data":{"allCharacters":{"nodes":[{"id":"0","name":"Rick Sanchez","gender":"Male","status":"Alive","image":"https://rickandmortyapi.com/api/character/avatar/1.jpeg"},{"id":"1","name":"Morty Smith","gender":"Male","status":"Alive","image":"https://rickandmortyapi.com/api/character/avatar/2.jpeg"},{"id":"2","name":"Summer Smith","gender":"Female","status":"Alive","image":"https://rickandmortyapi.com/api/character/avatar/3.jpeg"},{"id":"3","name":"Beth Smith","gender":"Female","status":"Alive","image":"https://rickandmortyapi.com/api/character/avatar/4.jpeg"},{"id":"4","name":"Jerry Smith","gender":"Male","status":"Alive","image":"https://rickandmortyapi.com/api/character/avatar/5.jpeg"}]}},"pageContext":{}},
-    "staticQueryHashes": []}
