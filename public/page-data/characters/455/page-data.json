@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-characters-single-js",
+    "path": "/characters/455",
+    "result": {"pageContext":{"id":"455","name":"Nano Doctor","image":"https://rickandmortyapi.com/api/character/avatar/456.jpeg","species":"Alien","gender":"Male","status":"Alive","limit":10000}},
+    "staticQueryHashes": []}

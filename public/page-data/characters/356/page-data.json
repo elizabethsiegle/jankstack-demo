@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-characters-single-js",
+    "path": "/characters/356",
+    "result": {"pageContext":{"id":"356","name":"Tommy's Clone","image":"https://rickandmortyapi.com/api/character/avatar/357.jpeg","species":"Human","gender":"Male","status":"Alive","limit":10000}},
+    "staticQueryHashes": []}

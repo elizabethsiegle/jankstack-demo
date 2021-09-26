@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-characters-single-js",
+    "path": "/characters/38",
+    "result": {"pageContext":{"id":"38","name":"Beth Smith","image":"https://rickandmortyapi.com/api/character/avatar/39.jpeg","species":"Human","gender":"Female","status":"Alive","limit":10000}},
+    "staticQueryHashes": []}

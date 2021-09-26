@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-characters-single-js",
+    "path": "/characters/256",
+    "result": {"pageContext":{"id":"256","name":"Paul Fleishman","image":"https://rickandmortyapi.com/api/character/avatar/257.jpeg","species":"Human","gender":"Male","status":"Alive","limit":10000}},
+    "staticQueryHashes": []}

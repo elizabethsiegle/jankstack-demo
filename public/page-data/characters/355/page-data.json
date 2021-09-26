@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-characters-single-js",
+    "path": "/characters/355",
+    "result": {"pageContext":{"id":"355","name":"Tom Randolph","image":"https://rickandmortyapi.com/api/character/avatar/356.jpeg","species":"Human","gender":"Male","status":"Alive","limit":10000}},
+    "staticQueryHashes": []}

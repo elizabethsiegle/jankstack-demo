@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-characters-single-js",
+    "path": "/characters/394",
+    "result": {"pageContext":{"id":"394","name":"Greebybobe","image":"https://rickandmortyapi.com/api/character/avatar/395.jpeg","species":"Alien","gender":"unknown","status":"Alive","limit":10000}},
+    "staticQueryHashes": []}

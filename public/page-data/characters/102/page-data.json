@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-characters-single-js",
+    "path": "/characters/102",
+    "result": {"pageContext":{"id":"102","name":"Doofus Rick","image":"https://rickandmortyapi.com/api/character/avatar/103.jpeg","species":"Human","gender":"Male","status":"unknown","limit":10000}},
+    "staticQueryHashes": []}

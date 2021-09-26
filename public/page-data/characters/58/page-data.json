@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-characters-single-js",
+    "path": "/characters/58",
+    "result": {"pageContext":{"id":"58","name":"Brad Anderson","image":"https://rickandmortyapi.com/api/character/avatar/59.jpeg","species":"Human","gender":"Male","status":"Dead","limit":10000}},
+    "staticQueryHashes": []}

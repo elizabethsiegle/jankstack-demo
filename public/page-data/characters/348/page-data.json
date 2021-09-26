@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-characters-single-js",
+    "path": "/characters/348",
+    "result": {"pageContext":{"id":"348","name":"The Scientist Formerly Known as Rick","image":"https://rickandmortyapi.com/api/character/avatar/349.jpeg","species":"Human","gender":"Male","status":"Dead","limit":10000}},
+    "staticQueryHashes": []}

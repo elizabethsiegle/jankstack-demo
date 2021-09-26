@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-characters-single-js",
+    "path": "/characters/243",
+    "result": {"pageContext":{"id":"243","name":"Mr. Poopybutthole","image":"https://rickandmortyapi.com/api/character/avatar/244.jpeg","species":"Poopybutthole","gender":"Male","status":"Alive","limit":10000}},
+    "staticQueryHashes": []}

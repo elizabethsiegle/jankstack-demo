@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-characters-single-js",
+    "path": "/characters/59",
+    "result": {"pageContext":{"id":"59","name":"Calypso","image":"https://rickandmortyapi.com/api/character/avatar/60.jpeg","species":"Human","gender":"Female","status":"Dead","limit":10000}},
+    "staticQueryHashes": []}

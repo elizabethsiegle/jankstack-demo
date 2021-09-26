@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-characters-single-js",
+    "path": "/characters/91",
+    "result": {"pageContext":{"id":"91","name":"Davin","image":"https://rickandmortyapi.com/api/character/avatar/92.jpeg","species":"Human","gender":"Male","status":"Dead","limit":10000}},
+    "staticQueryHashes": []}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-characters-single-js",
+    "path": "/characters/477",
+    "result": {"pageContext":{"id":"477","name":"Journalist Rick","image":"https://rickandmortyapi.com/api/character/avatar/478.jpeg","species":"Human","gender":"Male","status":"Alive","limit":10000}},
+    "staticQueryHashes": []}

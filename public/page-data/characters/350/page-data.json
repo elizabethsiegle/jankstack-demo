@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-characters-single-js",
+    "path": "/characters/350",
+    "result": {"pageContext":{"id":"350","name":"Three Unknown Things","image":"https://rickandmortyapi.com/api/character/avatar/351.jpeg","species":"Alien","gender":"unknown","status":"Alive","limit":10000}},
+    "staticQueryHashes": []}

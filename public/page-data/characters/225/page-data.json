@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-characters-single-js",
+    "path": "/characters/225",
+    "result": {"pageContext":{"id":"225","name":"Million Ants","image":"https://rickandmortyapi.com/api/character/avatar/226.jpeg","species":"Animal","gender":"Male","status":"Dead","limit":10000}},
+    "staticQueryHashes": []}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-characters-single-js",
+    "path": "/characters/279",
+    "result": {"pageContext":{"id":"279","name":"Reverse Giraffe","image":"https://rickandmortyapi.com/api/character/avatar/280.jpeg","species":"Alien","gender":"Male","status":"Dead","limit":10000}},
+    "staticQueryHashes": []}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-characters-single-js",
+    "path": "/characters/411",
+    "result": {"pageContext":{"id":"411","name":"Giant Cat Monster","image":"https://rickandmortyapi.com/api/character/avatar/412.jpeg","species":"Animal","gender":"unknown","status":"unknown","limit":10000}},
+    "staticQueryHashes": []}

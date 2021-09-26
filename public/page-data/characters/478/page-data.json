@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-characters-single-js",
+    "path": "/characters/478",
+    "result": {"pageContext":{"id":"478","name":"Private Sector Rick","image":"https://rickandmortyapi.com/api/character/avatar/479.jpeg","species":"Human","gender":"Male","status":"Dead","limit":10000}},
+    "staticQueryHashes": []}
