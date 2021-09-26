@@ -82,33 +82,6 @@ export function Landing() {
             alt="Screenshot for Form builder"
           />
         </Flex>
-        <Box>
-          <Text color={mode('gray.600', 'gray.400')} fontWeight="medium">
-            Proudly trusted by 5,000+ companies and individuals
-          </Text>
-          <SimpleGrid
-            mt="8"
-            columns={{
-              base: 2,
-              md: 3,
-              lg: 6,
-            }}
-            color="gray.500"
-            alignItems="center"
-            spacing={{
-              base: '12',
-              lg: '24',
-            }}
-            fontSize="2xl"
-          >
-            <Logos.ChatMonkey />
-            <Logos.Wakanda />
-            <Logos.Lighthouse />
-            <Logos.Plumtic />
-            <Logos.WorkScout />
-            <Logos.Finnik />
-          </SimpleGrid>
-        </Box>
       </Box>
     </Box>
   )

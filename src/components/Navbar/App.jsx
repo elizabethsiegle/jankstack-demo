@@ -12,8 +12,6 @@ import { MobileNav } from './MobileNav'
 import { NavLink } from './NavLink'
 
 export const Navbar = (props) => {
-  console.log("props:");
-  console.log(props);
   return (
     <Box>
       <Box as="header" bg={mode('white', 'gray.800')} borderBottomWidth="1px">

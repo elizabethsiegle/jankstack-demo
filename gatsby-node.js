@@ -87,8 +87,6 @@ exports.createPages = async ({ graphql, actions }) => {
 				JANKY_ERRORS === 'true' && console.error(`Error: this page is not as janky as it could be, please unfix`)
 			}
 
-	
-
       createPage({
         path: `characters/${node.id}`,
         component: CharactersSingle,
