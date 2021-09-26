@@ -37,7 +37,6 @@ module.exports = {
         NR_LICENSE_KEY: process.env.NEW_RELIC_LICENSE_KEY || '',
         NR_ACCOUNT_ID: process.env.NEW_RELIC_ACCOUNT_ID,
         SITE_NAME: 'jankstack',
-        staging: true,
         customTags: {
           gatsbySite: 'jankstack',
           JANKY_SOURCE_NODES: process.env.JANKY_SOURCE_NODES,
@@ -47,5 +46,20 @@ module.exports = {
         }
       }
     },
+    {
+      resolve: "@chakra-ui/gatsby-plugin",
+      options: {
+        /**
+         * @property {boolean} [resetCSS=true]
+         * if false, this plugin will not use `<CSSReset />
+         */
+        resetCSS: true,
+        /**
+         * @property {boolean} [isUsingColorMode=true]
+         * if false, this plugin will not use <ColorModeProvider />
+         */
+        isUsingColorMode: true,
+      },
+    }
   ],
 }
