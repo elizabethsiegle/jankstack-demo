@@ -4,7 +4,7 @@ import { BannerLink } from './BannerLink'
 
 const Banner = () => {
   return (
-    <Box as="section" pt="8" pb="12">
+    <Box as="section">
       <Stack
         direction={{
           base: 'column',
@@ -19,14 +19,14 @@ const Banner = () => {
           lg: '8',
         }}
         color="white"
-        bg={useColorModeValue('blue.600', 'blue.400')}
+        bg="#FF0081"
       >
         <HStack spacing="3">
           <Text fontWeight="medium" marginEnd="2">
-            Win a Free Battery Pack in 10 minutes by instrumenting your Gatsby site
+            Win a Free Power Bank in 10 minutes by instrumenting your Gatsby site
           </Text>
         </HStack>
-        <BannerLink
+        {/* <BannerLink
           w={{
             base: 'full',
             sm: 'auto',
@@ -34,7 +34,7 @@ const Banner = () => {
           flexShrink={0}
         >
           Get Free Stuff
-        </BannerLink>
+        </BannerLink> */}
       </Stack>
     </Box>
   )

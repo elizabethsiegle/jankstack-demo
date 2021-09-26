@@ -1,15 +1,20 @@
 import React from 'react'
-import {graphql} from 'gatsby'
+import { graphql } from 'gatsby'
 
 import HomeBox from './../components/Home/HomeBox'
 import Layout from './../components/Layout'
+import Banner from '../components/Banner'
+import { Navbar } from '../components/Navbar/App'
+import { Landing } from '../components/Landing/App'
 
-const Home = ({data}) => {
+const Home = ({ data }) => {
 	return (
-		<Layout helmet={"JANKstack = Future"}>
-			<h1><strike>JAMstack</strike>JANKstack.org</h1>
-			<HomeBox characters={data.allCharacters.nodes} />
-		</Layout>
+		<>
+
+			<Banner />
+			<Navbar />
+			<Landing />
+		</>
 	)
 }
 
