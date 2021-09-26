@@ -1,7 +1,6 @@
 import React from 'react'
-import { Button, Box, Flex, Text } from '@chakra-ui/react'
+import { Button } from '@chakra-ui/react'
 
-import { Card } from './'
 import { CardWithAvatar } from './CardWithAvatar'
 //import ContentLoader from "react-content-loader";
 import { UserInfo } from './UserInfo'

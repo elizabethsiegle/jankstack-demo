@@ -1,5 +1,0 @@
-{
-    "componentChunkName": "component---src-templates-characters-single-js",
-    "path": "/characters/25",
-    "result": {"pageContext":{"id":"25","name":"Arthricia","image":"https://rickandmortyapi.com/api/character/avatar/26.jpeg","species":"Alien","gender":"Female","status":"Alive","limit":10000}},
-    "staticQueryHashes": []}

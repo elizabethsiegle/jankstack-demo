@@ -1,5 +1,0 @@
-{
-    "componentChunkName": "component---src-templates-characters-single-js",
-    "path": "/characters/162",
-    "result": {"pageContext":{"id":"162","name":"Ideal Jerry","image":"https://rickandmortyapi.com/api/character/avatar/163.jpeg","species":"Mythological Creature","gender":"Male","status":"Dead","limit":10000}},
-    "staticQueryHashes": []}

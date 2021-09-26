@@ -1,5 +1,0 @@
-{
-    "componentChunkName": "component---src-templates-characters-single-js",
-    "path": "/characters/294",
-    "result": {"pageContext":{"id":"294","name":"Riq IV","image":"https://rickandmortyapi.com/api/character/avatar/295.jpeg","species":"Human","gender":"Male","status":"Dead","limit":10000}},
-    "staticQueryHashes": []}

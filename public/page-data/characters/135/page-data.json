@@ -1,5 +1,0 @@
-{
-    "componentChunkName": "component---src-templates-characters-single-js",
-    "path": "/characters/135",
-    "result": {"pageContext":{"id":"135","name":"Gazorpazorpfield","image":"https://rickandmortyapi.com/api/character/avatar/136.jpeg","species":"Alien","gender":"Male","status":"Alive","limit":10000}},
-    "staticQueryHashes": []}

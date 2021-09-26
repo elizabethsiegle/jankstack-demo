@@ -1,5 +1,0 @@
-{
-    "componentChunkName": "component---src-templates-characters-single-js",
-    "path": "/characters/257",
-    "result": {"pageContext":{"id":"257","name":"Pawnshop Clerk","image":"https://rickandmortyapi.com/api/character/avatar/258.jpeg","species":"Alien","gender":"Male","status":"Alive","limit":10000}},
-    "staticQueryHashes": []}

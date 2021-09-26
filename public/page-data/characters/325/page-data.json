@@ -1,5 +1,0 @@
-{
-    "componentChunkName": "component---src-templates-characters-single-js",
-    "path": "/characters/325",
-    "result": {"pageContext":{"id":"325","name":"Slippery Stair","image":"https://rickandmortyapi.com/api/character/avatar/326.jpeg","species":"Mythological Creature","gender":"Male","status":"Alive","limit":10000}},
-    "staticQueryHashes": []}

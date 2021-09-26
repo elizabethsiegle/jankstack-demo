@@ -1,5 +1,0 @@
-{
-    "componentChunkName": "component---src-templates-characters-single-js",
-    "path": "/characters/233",
-    "result": {"pageContext":{"id":"233","name":"Morty Smith","image":"https://rickandmortyapi.com/api/character/avatar/234.jpeg","species":"Human","gender":"Male","status":"Dead","limit":10000}},
-    "staticQueryHashes": []}

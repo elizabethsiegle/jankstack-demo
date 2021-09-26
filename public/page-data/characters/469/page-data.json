@@ -1,5 +1,0 @@
-{
-    "componentChunkName": "component---src-templates-characters-single-js",
-    "path": "/characters/469",
-    "result": {"pageContext":{"id":"469","name":"Alien Spa Employee","image":"https://rickandmortyapi.com/api/character/avatar/470.jpeg","species":"Alien","gender":"Male","status":"Alive","limit":10000}},
-    "staticQueryHashes": []}

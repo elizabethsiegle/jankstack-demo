@@ -32,7 +32,7 @@ export const Navbar = (props) => {
                 <VisuallyHidden>Envelope app</VisuallyHidden>
                 {/* <Logo h="6" iconColor="blue.500" /> */}
 
-                <Img src="/logo.png" maxH="60px" />
+                <Img src="logo.png" maxH="60px" />
               </Box>
               <HStack
                 display={{

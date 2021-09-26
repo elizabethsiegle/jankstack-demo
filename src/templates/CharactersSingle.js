@@ -10,9 +10,7 @@ import {
   useColorModeValue as mode,
 } from '@chakra-ui/react'
 import React from "react"
-import { Col, Row } from "react-styled-flexboxgrid"
 import Banner from '../components/Banner'
-import { CharacterCard } from "../components/elements/cards"
 import { Navbar } from '../components/Navbar/App'
 
 const CharactersSingle = props => {

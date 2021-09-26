@@ -1,5 +1,0 @@
-{
-    "componentChunkName": "component---src-templates-characters-single-js",
-    "path": "/characters/80",
-    "result": {"pageContext":{"id":"80","name":"Crocubot","image":"https://rickandmortyapi.com/api/character/avatar/81.jpeg","species":"Animal","gender":"Male","status":"Dead","limit":10000}},
-    "staticQueryHashes": []}

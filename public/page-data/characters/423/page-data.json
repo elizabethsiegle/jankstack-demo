@@ -1,5 +1,0 @@
-{
-    "componentChunkName": "component---src-templates-characters-single-js",
-    "path": "/characters/423",
-    "result": {"pageContext":{"id":"423","name":"Pizza-person","image":"https://rickandmortyapi.com/api/character/avatar/424.jpeg","species":"Humanoid","gender":"Male","status":"Alive","limit":10000}},
-    "staticQueryHashes": []}

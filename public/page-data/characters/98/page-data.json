@@ -1,5 +1,0 @@
-{
-    "componentChunkName": "component---src-templates-characters-single-js",
-    "path": "/characters/98",
-    "result": {"pageContext":{"id":"98","name":"Hepatitis C","image":"https://rickandmortyapi.com/api/character/avatar/99.jpeg","species":"Disease","gender":"unknown","status":"Dead","limit":10000}},
-    "staticQueryHashes": []}

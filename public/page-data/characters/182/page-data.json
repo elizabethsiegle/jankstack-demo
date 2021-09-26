@@ -1,5 +1,0 @@
-{
-    "componentChunkName": "component---src-templates-characters-single-js",
-    "path": "/characters/182",
-    "result": {"pageContext":{"id":"182","name":"Johnny Depp","image":"https://rickandmortyapi.com/api/character/avatar/183.jpeg","species":"Human","gender":"Male","status":"Alive","limit":10000}},
-    "staticQueryHashes": []}

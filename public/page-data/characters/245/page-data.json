@@ -1,5 +1,0 @@
-{
-    "componentChunkName": "component---src-templates-characters-single-js",
-    "path": "/characters/245",
-    "result": {"pageContext":{"id":"245","name":"Mrs. Pancakes","image":"https://rickandmortyapi.com/api/character/avatar/246.jpeg","species":"Human","gender":"Female","status":"Alive","limit":10000}},
-    "staticQueryHashes": []}

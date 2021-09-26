@@ -1,5 +1,0 @@
-{
-    "componentChunkName": "component---src-templates-characters-single-js",
-    "path": "/characters/211",
-    "result": {"pageContext":{"id":"211","name":"Magma-Q","image":"https://rickandmortyapi.com/api/character/avatar/212.jpeg","species":"Alien","gender":"Male","status":"Dead","limit":10000}},
-    "staticQueryHashes": []}

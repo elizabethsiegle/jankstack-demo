@@ -1,5 +1,0 @@
-{
-    "componentChunkName": "component---src-templates-characters-single-js",
-    "path": "/characters/489",
-    "result": {"pageContext":{"id":"489","name":"Chang","image":"https://rickandmortyapi.com/api/character/avatar/490.jpeg","species":"Human","gender":"Male","status":"Alive","limit":10000}},
-    "staticQueryHashes": []}

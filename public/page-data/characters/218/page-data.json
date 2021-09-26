@@ -1,5 +1,0 @@
-{
-    "componentChunkName": "component---src-templates-characters-single-js",
-    "path": "/characters/218",
-    "result": {"pageContext":{"id":"218","name":"Mechanical Summer","image":"https://rickandmortyapi.com/api/character/avatar/219.jpeg","species":"Robot","gender":"Female","status":"unknown","limit":10000}},
-    "staticQueryHashes": []}

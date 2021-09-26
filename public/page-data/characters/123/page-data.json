@@ -1,5 +1,0 @@
-{
-    "componentChunkName": "component---src-templates-characters-single-js",
-    "path": "/characters/123",
-    "result": {"pageContext":{"id":"123","name":"Father Bob","image":"https://rickandmortyapi.com/api/character/avatar/124.jpeg","species":"Human","gender":"Male","status":"Alive","limit":10000}},
-    "staticQueryHashes": []}

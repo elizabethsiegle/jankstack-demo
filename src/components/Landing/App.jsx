@@ -78,7 +78,7 @@ export function Landing() {
             pos="relative"
             marginEnd="-16rem"
             w="50rem"
-            src="/landing.gif"
+            src="/rick.gif"
             alt="Screenshot for Form builder"
           />
         </Flex>

@@ -1,5 +1,0 @@
-{
-    "componentChunkName": "component---src-templates-characters-single-js",
-    "path": "/characters/466",
-    "result": {"pageContext":{"id":"466","name":"Morphizer-XE Customer Support","image":"https://rickandmortyapi.com/api/character/avatar/467.jpeg","species":"Alien","gender":"Male","status":"Alive","limit":10000}},
-    "staticQueryHashes": []}

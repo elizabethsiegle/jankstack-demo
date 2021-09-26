@@ -1,6 +1,5 @@
 import { HStack, Icon, Text, useColorModeValue, VStack } from '@chakra-ui/react'
 import * as React from 'react'
-import { HiBadgeCheck } from 'react-icons/hi'
 
 export const UserInfo = (props) => {
   const { name, species, gender, status, ...stackProps } = props

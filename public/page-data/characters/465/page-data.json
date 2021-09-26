@@ -1,5 +1,0 @@
-{
-    "componentChunkName": "component---src-templates-characters-single-js",
-    "path": "/characters/465",
-    "result": {"pageContext":{"id":"465","name":"SEAL Team Rick","image":"https://rickandmortyapi.com/api/character/avatar/466.jpeg","species":"Human","gender":"Male","status":"Dead","limit":10000}},
-    "staticQueryHashes": []}

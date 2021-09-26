@@ -1,5 +1,0 @@
-{
-    "componentChunkName": "component---src-templates-characters-single-js",
-    "path": "/characters/352",
-    "result": {"pageContext":{"id":"352","name":"Tiny Rick","image":"https://rickandmortyapi.com/api/character/avatar/353.jpeg","species":"Human","gender":"Male","status":"Dead","limit":10000}},
-    "staticQueryHashes": []}
