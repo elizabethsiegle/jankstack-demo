@@ -3,13 +3,11 @@ import { graphql } from 'gatsby'
 import { Col, Row } from 'react-styled-flexboxgrid'
 
 import { CharacterCard } from '../components/elements/cards'
-import Layout from './../components/Layout'
 
 import useRandomCharacters from '../utils/hooks/randomCharacters'
 import { Navbar } from '../components/Navbar/App'
 import Banner from '../components/Banner'
 import { Button, Box, Flex, SimpleGrid, Container } from '@chakra-ui/react'
-const JANKY_SOURCE_NODES = process.env.JANKY_SOURCE_NODES
 const Characters = ({ data }) => {
 	const characters = useRandomCharacters(data.allCharacters.nodes, 40)
 	return (
