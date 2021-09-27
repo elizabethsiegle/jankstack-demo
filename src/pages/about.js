@@ -167,26 +167,6 @@ const About = () => {
 			</Box>
 		  </Stack>
 		  <Divider my="20" opacity={1} />
-        <SimpleGrid
-          columns={{
-            base: 1,
-            md: 3,
-          }}
-          spacing={{
-            base: '12',
-            md: '8',
-          }}
-        >
-          <Feature title="Share files" icon="/nr1.png">
-            Keep files and the messages about them together in channels.
-          </Feature>
-          <Feature title="Connect with users" >
-            Keep files and the messages about them together in channels.
-          </Feature>
-          <Feature title="Collaborate with partners" >
-            Keep files and the messages about them together in channels.
-          </Feature>
-        </SimpleGrid>
 		</Box>
 	  </Box>
 	</>

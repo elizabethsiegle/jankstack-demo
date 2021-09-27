@@ -42,10 +42,10 @@ export function Landing() {
           // pt="6"
           >
             <Heading as="h1" size="3xl" fontWeight="extrabold">
-              The janky way to half-build websites and apps to deliver better performance
+             Dont' let your JAMStack app become a JANKStack.
             </Heading>
             <Text color={mode('gray.600', 'gray.400')} mt="5" fontSize="xl">
-              The JANKstack architecture has many benefits, whether you’re building a large e-commerce site, SaaS application or personal blog. This website was built using the most cuttingest edge technology.
+              When you’re building a large e-commerce site, SaaS application or personal blog, there is more than likely a collection of Jank building up. The JANKStack movement exists to help you gain reliable visibility into the performance of your entire site to remove JANK from your website.
             </Text>
             <a href="/characters">
               <Button
@@ -63,7 +63,7 @@ export function Landing() {
                 }}
               >
 
-                Join the 💩 Movement
+                Join the Movement
 
               </Button>
             </a>
@@ -78,7 +78,7 @@ export function Landing() {
             pos="relative"
             marginEnd="-16rem"
             w="50rem"
-            src="/rick.gif"
+            src="/jankstack.png"
             alt="Screenshot for Form builder"
           />
         </Flex>
