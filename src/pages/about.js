@@ -1,6 +1,5 @@
 /* eslint-disable */
 import React from 'react'
-import { Link } from 'gatsby'
 import { Grid } from 'react-styled-flexboxgrid'
 
 import Layout from './../components/Layout'
