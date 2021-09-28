@@ -77,10 +77,10 @@ const About = () => {
 					letterSpacing="tight"
 					lineHeight="normal"
 				>
-					Win a Free Power Bank in 10 minutes
+					Add observability to your gatsby site and win a free power bank
 				</Heading>
 				<Text fontSize="lg" mt="6" color={mode('gray.600', 'gray.400')}>
-					Instrument your Gatsby Site with Observability and win a free power bank *(Until Supplies Last). Terms and Conditions apply.
+				Follow the steps below to see Gatsby build time performance and share your dashboard to redeem. Terms and conditions apply.
 				</Text>
 				</Box>
 			</Stack>
