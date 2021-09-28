@@ -21,12 +21,13 @@ const VerticalSteps = () => {
       minH="400px"
     >
       <Steps activeStep={activeStep}>
-        <Step title="Sign up for always-free New Relic One and Get API Keys">
+        <Step title="Sign up for your free New Relic One and get API Keys">
           <StepContent>
             <Stack shouldWrapChildren spacing="4">
               <Text>
-                New Relic One is a powerful full-stack data analysis platform for all your software's metrics, events, and logs.  
+              New Relic One is a world-class observability platform that helps developers monitor, debug, and optimize their entire stack.
               </Text>
+              <a href="https://newrelic.com/signup?utm_source=jamstackconf&utm_medium=organic_social&utm_campaign=global-fy22-q2-gatsby_build&utm_content=event">
               <Button
                 mt="8"
                 minW="14rem"
@@ -40,10 +41,10 @@ const VerticalSteps = () => {
                 _hover={{
                   bg: "#b8005d"
                 }}
-
               >
                 Sign up for New Relic One
               </Button>
+              </a>
               <Img
                 objectFit="cover"
                 w="full"
