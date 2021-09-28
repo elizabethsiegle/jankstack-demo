@@ -52,11 +52,13 @@ export const Navbar = (props) => {
                   base: 'flex',
                 }}
               >
+                <a href="/about">
                 <Button bg="#FF0081" color="white" rounded="full" _hover={{
                   bg: "#b8005d"
                 }}>
                   Win a free powerbank
                 </Button>
+                </a>
               </HStack>
               <Box ml="5">
                 <MobileNav />

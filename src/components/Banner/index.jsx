@@ -5,6 +5,7 @@ import { BannerLink } from './BannerLink'
 const Banner = () => {
   return (
     <Box as="section">
+      <a href="/about">
       <Stack
         direction={{
           base: 'column',
@@ -36,6 +37,7 @@ const Banner = () => {
           Get Free Stuff
         </BannerLink> */}
       </Stack>
+      </a>
     </Box>
   )
 }
