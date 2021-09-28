@@ -54,6 +54,42 @@ const VerticalSteps = () => {
                 alt="Bring team together"
                 />
                 <b>Get New Relic Ingest Key, Insert Key, and Account ID </b>
+                <Img
+                objectFit="cover"
+                w="full"
+                h="full"
+                htmlWidth="576px"
+                htmlHeight="420px"
+                src="/steps/5.png"
+                alt="Bring team together"
+                />
+                 <Img
+                objectFit="cover"
+                w="full"
+                h="full"
+                htmlWidth="576px"
+                htmlHeight="420px"
+                src="/steps/6.png"
+                alt="Bring team together"
+                />
+                 <Img
+                objectFit="cover"
+                w="full"
+                h="full"
+                htmlWidth="576px"
+                htmlHeight="420px"
+                src="/steps/7.png"
+                alt="Bring team together"
+                />
+                <Img
+                objectFit="cover"
+                w="full"
+                h="full"
+                htmlWidth="576px"
+                htmlHeight="420px"
+                src="/steps/8.png"
+                alt="Bring team together"
+                />
               <HStack>
                 <Button size="sm" variant="ghost" isDisabled>
                   Back
@@ -115,6 +151,15 @@ const VerticalSteps = () => {
               <Text>
                 Tag @newrelic and @gatsbyjs with the autoinstrumented dashboard. 
               </Text>
+              <Img
+                objectFit="cover"
+                w="full"
+                h="full"
+                htmlWidth="576px"
+                htmlHeight="420px"
+                src="/steps/3.png"
+                alt="Bring team together"
+                />
               <HStack>
                 <Button size="sm" onClick={prevStep} variant="ghost">
                   Back
