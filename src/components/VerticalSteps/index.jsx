@@ -21,7 +21,7 @@ const VerticalSteps = () => {
       minH="400px"
     >
       <Steps activeStep={activeStep}>
-        <Step title="Sign up for your free New Relic One and get API Keys">
+        <Step title="Sign up for New Relic One">
           <StepContent>
             <Stack shouldWrapChildren spacing="4">
               <Text>
@@ -54,43 +54,7 @@ const VerticalSteps = () => {
                 src="/nr1.png"
                 alt="Bring team together"
                 />
-                <b>Get New Relic Ingest Key, Insert Key, and Account ID </b>
-                <Img
-                objectFit="cover"
-                w="full"
-                h="full"
-                htmlWidth="576px"
-                htmlHeight="420px"
-                src="/steps/5.png"
-                alt="Bring team together"
-                />
-                 <Img
-                objectFit="cover"
-                w="full"
-                h="full"
-                htmlWidth="576px"
-                htmlHeight="420px"
-                src="/steps/6.png"
-                alt="Bring team together"
-                />
-                 <Img
-                objectFit="cover"
-                w="full"
-                h="full"
-                htmlWidth="576px"
-                htmlHeight="420px"
-                src="/steps/7.png"
-                alt="Bring team together"
-                />
-                <Img
-                objectFit="cover"
-                w="full"
-                h="full"
-                htmlWidth="576px"
-                htmlHeight="420px"
-                src="/steps/8.png"
-                alt="Bring team together"
-                />
+                
               <HStack>
                 <Button size="sm" variant="ghost" isDisabled>
                   Back
@@ -102,19 +66,10 @@ const VerticalSteps = () => {
             </Stack>
           </StepContent>
         </Step>
-        <Step title="Deploy Sample Site">
+        <Step title="Configure and Deploy your app">
           <StepContent>
             <Stack shouldWrapChildren spacing="4">
-              <b>Fill the New Relic environmental variables in the Netlify deployment step.</b>
-              <Img
-                objectFit="cover"
-                w="full"
-                h="full"
-                htmlWidth="576px"
-                htmlHeight="420px"
-                src="/steps/2.png"
-                alt="Bring team together"
-                />
+              <b>Click the Deploy to Netlify badge. Link your Github Account.</b>
               <Link href="https://app.netlify.com/start/deploy?repository=https://github.com/lazyplatypus/jank-stack" isExternal>
               <Img
                 objectFit="cover"
@@ -125,16 +80,82 @@ const VerticalSteps = () => {
                 alt="Bring team together"
                 />
                 </Link>
-              <Link href="https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/lazyplatypus/jank-stack" isExternal>
               <Img
                 objectFit="cover"
                 w="full"
                 h="full"
-                maxWidth="200px"
-                src="https://www.gatsbyjs.com/deploynow.svg"
-                alt="Bring team together"
+                htmlWidth="576px"
+                htmlHeight="420px"
+                src="/steps/4.png"
+                alt="Github Signup"
                 />
-                </Link>
+            
+              <HStack>
+                <Button size="sm" onClick={prevStep} variant="ghost">
+                  Back
+                </Button>
+                <Button size="sm" onClick={nextStep}>
+                  Next
+                </Button>
+              </HStack>
+            </Stack>
+          </StepContent>
+        </Step>
+        <Step title="Add New Relic API Keys on Netlify">
+          <StepContent>
+            <Stack shouldWrapChildren spacing="4">
+
+              <Img
+                objectFit="cover"
+                w="full"
+                h="full"
+                htmlWidth="576px"
+                htmlHeight="420px"
+                src="/steps/2.png"
+                alt="Github Signup"
+                />
+                <Text>For <b>NEW RELIC INGEST LICENSE KEY</b> head to <a href="https://one.newrelic.com">New Relic One</a>, click on the account dropdown menu on the top right, and select <b>API KEYS</b></Text>
+                <Img
+                objectFit="cover"
+                w="full"
+                h="full"
+                htmlWidth="576px"
+                htmlHeight="420px"
+                src="/steps/5.png"
+                alt="Github Signup"
+                />
+                <Text>For <b>NEW RELIC INSIGHTS INSERT KEY and NEW RELIC ACCOUNT ID</b> click on the link on the right menu bar called <b>Insights Insert Keys</b></Text>
+                <Img
+                objectFit="cover"
+                w="full"
+                h="full"
+                htmlWidth="576px"
+                htmlHeight="420px"
+                src="/steps/6.png"
+                alt="Github Signup"
+                />
+                <Text>Click the blue add symbol next to Insert Key</Text>
+                <Img
+                objectFit="cover"
+                w="full"
+                h="full"
+                htmlWidth="576px"
+                htmlHeight="420px"
+                src="/steps/7.png"
+                alt="Github Signup"
+                />
+                <Text>You should be able to find the Account ID next to <b>Account: </b> and the Insert Key next to <b>Key: </b> </Text>
+                <Img
+                objectFit="cover"
+                w="full"
+                h="full"
+                htmlWidth="576px"
+                htmlHeight="420px"
+                src="/steps/8.png"
+                alt="Github Signup"
+                />
+
+
               <HStack>
                 <Button size="sm" onClick={prevStep} variant="ghost">
                   Back

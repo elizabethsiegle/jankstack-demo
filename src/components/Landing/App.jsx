@@ -42,7 +42,7 @@ export function Landing() {
           // pt="6"
           >
             <Heading as="h1" size="3xl" fontWeight="extrabold">
-             Dont' let your JAMStack app become a JANKStack.
+             Dont' let your JamStack app become a JankStack.
             </Heading>
             <Text color={mode('gray.600', 'gray.400')} mt="5" fontSize="xl">
               When you’re building a large e-commerce site, SaaS application or personal blog, there is more than likely a collection of Jank building up. The JANKStack movement exists to help you gain reliable visibility into the performance of your entire site to remove JANK from your website.
