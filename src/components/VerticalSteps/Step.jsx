@@ -23,7 +23,7 @@ export const Step = (props) => {
           {isCompleted ? <Icon as={CheckIcon} /> : step}
         </Circle>
         <Heading
-          fontSize="lg"
+          fontSize="xl"
           fontWeight="semibold"
           color={isActive || isCompleted ? 'inherit' : mutedColor}
         >

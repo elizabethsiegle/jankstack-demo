@@ -12,7 +12,7 @@ const VerticalSteps = () => {
   return (
     <Box
       mx="auto"
-      maxW="2xl"
+      maxW="3xl"
       py="10"
       px={{
         base: '6',
@@ -40,6 +40,7 @@ const VerticalSteps = () => {
                 _hover={{
                   bg: "#b8005d"
                 }}
+
               >
                 Sign up for New Relic One
               </Button>
@@ -67,7 +68,16 @@ const VerticalSteps = () => {
         <Step title="Deploy Sample Site">
           <StepContent>
             <Stack shouldWrapChildren spacing="4">
-              <b>Choose a place to one click deploy</b>
+              <b>Fill the New Relic environmental variables in the Netlify deployment step.</b>
+              <Img
+                objectFit="cover"
+                w="full"
+                h="full"
+                htmlWidth="576px"
+                htmlHeight="420px"
+                src="/steps/2.png"
+                alt="Bring team together"
+                />
               <Link href="https://app.netlify.com/start/deploy?repository=https://github.com/lazyplatypus/jank-stack" isExternal>
               <Img
                 objectFit="cover"

@@ -82,10 +82,10 @@ const About = () => {
 				<Text fontSize="lg" mt="6" color={mode('gray.600', 'gray.400')}>
 					Instrument your Gatsby Site with Observability and win a free power bank *(Until Supplies Last). Terms and Conditions apply.
 				</Text>
-				<VerticalSteps />
 				</Box>
 			</Stack>
 			</Box>
+			<VerticalSteps />
 		</Box>
 	</>
 	)
