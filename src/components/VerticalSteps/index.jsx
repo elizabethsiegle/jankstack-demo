@@ -167,11 +167,46 @@ const VerticalSteps = () => {
             </Stack>
           </StepContent>
         </Step>
+        <Step title="Your ✨Beautiful✨ dashboard is done!">
+          <StepContent>
+            <Stack shouldWrapChildren spacing="4">
+              <Text>
+                Head to <a href="https://one.newrelic.com/?utm_source=jamstackconf&utm_medium=event&utm_campaign=global-fy22-q3-jamstackconf">New Relic One and find your Gatsby build</a>
+              </Text>
+              <Img
+                objectFit="cover"
+                w="full"
+                h="full"
+                htmlWidth="576px"
+                htmlHeight="420px"
+                src="/dash.png"
+                alt="Bring team together"
+                />
+                <Img
+                objectFit="cover"
+                w="full"
+                h="full"
+                htmlWidth="576px"
+                htmlHeight="420px"
+                src="/final.png"
+                alt="Bring team together"
+                />
+              <HStack>
+                <Button size="sm" onClick={prevStep} variant="ghost">
+                  Back
+                </Button>
+                <Button size="sm" onClick={nextStep}>
+                  Finish
+                </Button>
+              </HStack>
+            </Stack>
+          </StepContent>
+        </Step>
         <Step title="Tweet @newrelic and @gatsbyjs with your dashboard">
           <StepContent>
             <Stack shouldWrapChildren spacing="4">
               <Text>
-                Tag @newrelic and @gatsbyjs with the autoinstrumented dashboard. 
+                Tag @newrelic and @gatsbyjs with the autoinstrumented dashboard on Twitter. We will DM you to get your powerbank shipped to you! 
               </Text>
               <Img
                 objectFit="cover"
