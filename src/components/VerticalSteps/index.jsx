@@ -70,7 +70,7 @@ const VerticalSteps = () => {
           <StepContent>
             <Stack shouldWrapChildren spacing="4">
               <b>Click the Deploy to Netlify badge. Link your Github Account.</b>
-              <Link href="https://app.netlify.com/start/deploy?repository=https://gitlab.com/dgkim2/tryingnetlify" isExternal>
+              <Link href="https://app.netlify.com/start/deploy?repository=https://gitlab.com/dgkim2/jankstack-demo" isExternal>
               <Img
                 objectFit="cover"
                 w="full"
@@ -217,6 +217,7 @@ const VerticalSteps = () => {
                 src="/steps/3.png"
                 alt="Bring team together"
                 />
+                <Text>Participation notes: If your dashboard exposes any private data, we will work with you to anonymize your entries. Don’t hesitate to message us with any questions and we’ll do our best to help you participate.</Text>
               <HStack>
                 <Button size="sm" onClick={prevStep} variant="ghost">
                   Back
