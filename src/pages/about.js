@@ -77,10 +77,10 @@ const About = () => {
 					letterSpacing="tight"
 					lineHeight="normal"
 				>
-					Add observability to your gatsby site and win a free power bank
+					Add observability to your Gatsby site and win a free power bank*
 				</Heading>
 				<Text fontSize="lg" mt="6" color={mode('gray.600', 'gray.400')}>
-				Follow the steps below to see Gatsby build time performance and share your dashboard to redeem. Terms and conditions apply.
+				Follow the steps below to see Gatsby build time performance and share your dashboard to redeem (US Only). Terms and conditions apply.
 				</Text>
 				</Box>
 			</Stack>
