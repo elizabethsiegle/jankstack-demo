@@ -196,7 +196,7 @@ const VerticalSteps = () => {
                   Back
                 </Button>
                 <Button size="sm" onClick={nextStep}>
-                  Finish
+                  Next
                 </Button>
               </HStack>
             </Stack>
