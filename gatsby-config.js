@@ -40,10 +40,6 @@ module.exports = {
         customTags: {
           gatsbySite: 'jankstack',
           newFeature: 'remove-jank',
-          JANKY_SOURCE_NODES: process.env.JANKY_SOURCE_NODES,
-          JANKY_CREATE_PAGE: process.env.JANKY_CREATE_PAGE,
-          JANKY_ERRORS: process.env.JANKY_ERRORS,
-          HOW_MANY_PAGES: process.env.HOW_MANY_PAGES,
         }
       }
     },
