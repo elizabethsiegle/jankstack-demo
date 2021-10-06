@@ -70,7 +70,7 @@ const VerticalSteps = () => {
           <StepContent>
             <Stack shouldWrapChildren spacing="4">
               <b>Click the Deploy to Netlify badge. Link your Github Account.</b>
-              <Link href="https://app.netlify.com/start/deploy?repository=https://gitlab.com/dgkim2/tryingnetlify/" isExternal>
+              <Link href="https://app.netlify.com/start/deploy?repository=https://gitlab.com/dgkim2/tryingnetlify" isExternal>
               <Img
                 objectFit="cover"
                 w="full"
